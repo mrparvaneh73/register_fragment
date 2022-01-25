@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="50dp">
+
+    <TextView
+        android:id="@+id/showfullname"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/textbox"/>
+
+    <TextView
+        android:id="@+id/showusername"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/textbox"/>
+
+    <TextView
+        android:id="@+id/showemail"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/textbox"/>
+
+    <TextView
+        android:id="@+id/showpassword"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/textbox"/>
+
+    <TextView
+        android:id="@+id/showgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/textbox"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttom"
+        android:drawingCacheQuality="high"
+        android:text="SAVE"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="#F85084"
+        />
+</LinearLayout>
